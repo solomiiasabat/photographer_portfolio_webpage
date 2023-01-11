@@ -11,6 +11,19 @@ body {
   color: var(--first-color);
 }
 
+a {
+  text-decoration: none;
+  color: var(--first-color);
+}
+a:hover {
+  font-weight: bold;
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
 .ellipse {
   display: block;
   overflow: hidden;
