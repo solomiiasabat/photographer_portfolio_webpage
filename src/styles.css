@@ -1,0 +1,51 @@
+body {
+  background-color: #fefefe;
+  font-family: "Rubik";
+}
+
+.ellipse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 512px;
+  height: 512px;
+
+  background: radial-gradient(
+    77.51% 77.51% at 89.3% 39.23%,
+    #307466 0%,
+    #378867 100%
+  );
+  filter: blur(50px);
+  transform: rotate(-144.12deg);
+  border-radius: 100%;
+}
+
+.tanya-shevchuk {
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 320px;
+  height: 178px;
+  left: 620px;
+  right: 403px;
+  top: 310px;
+  bottom: 269px;
+
+  background: linear-gradient(271.59deg, #44a47d 9.96%, #ffffff 18.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.tanya-underline {
+  position: absolute;
+  margin-top: -115px;
+  margin-left: 615px;
+  width: 253px;
+  height: 1.5px;
+  background-color: #ffffff;
+  border: transparent;
+}
