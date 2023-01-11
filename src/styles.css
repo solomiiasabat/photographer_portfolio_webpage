@@ -21,17 +21,34 @@ body {
   border-radius: 100%;
 }
 
+.portfolio-link,
+.contacts-link {
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+}
+
+.portfolio-link {
+  position: absolute;
+  top: 200px;
+}
+
+.portfolio-link-underline {
+  position: absolute;
+}
+
 .tanya-shevchuk {
   font-weight: 400;
   font-size: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  position: absolute;
+  position: relative;
   width: 320px;
   height: 178px;
   left: 620px;
   right: 403px;
-  top: 310px;
+
   bottom: 269px;
 
   background: linear-gradient(271.59deg, #44a47d 9.96%, #ffffff 18.45%);
@@ -41,9 +58,9 @@ body {
 }
 
 .tanya-underline {
-  position: absolute;
-  margin-top: -115px;
-  margin-left: 615px;
+  position: relative;
+  margin-top: -340px;
+  margin-left: 620px;
   width: 253px;
   height: 1.5px;
   background-color: #ffffff;
