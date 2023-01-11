@@ -1,20 +1,27 @@
+:root {
+  --first-color: #ffffff;
+  --second-color: #307466;
+  --third-color: #378867;
+}
+
 body {
-  background-color: #fefefe;
+  background-color: var(--first-color);
   font-family: "Rubik";
+  margin-top: 40px;
+  color: var(--first-color);
 }
 
 .ellipse {
   display: block;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  width: 512px;
-  height: 512px;
-
+  width: 475px;
+  height: 475px;
   background: radial-gradient(
     77.51% 77.51% at 89.3% 39.23%,
-    #307466 0%,
-    #378867 100%
+    var(--second-color) 0%,
+    var(--third-color) 100%
   );
   filter: blur(50px);
   transform: rotate(-144.12deg);
@@ -23,19 +30,40 @@ body {
 
 .portfolio-link,
 .contacts-link {
+  position: relative;
   font-weight: 300;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 24px;
   letter-spacing: 0.05em;
+  left: 610px;
+}
+
+.portfolio-link-underline,
+.contacts-link-underline {
+  width: 67px;
+  height: 0.5px;
+}
+
+.underline {
+  position: relative;
+  background-color: var(--first-color);
+  border: transparent;
 }
 
 .portfolio-link {
-  position: absolute;
-  top: 200px;
+  bottom: 290px;
 }
 
 .portfolio-link-underline {
-  position: absolute;
+  bottom: 300px;
+}
+
+.contacts-link {
+  bottom: 300px;
+}
+
+.contacts-link-underline {
+  bottom: 310px;
 }
 
 .tanya-shevchuk {
@@ -44,25 +72,18 @@ body {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   position: relative;
+  padding: 5px;
   width: 320px;
   height: 178px;
   left: 620px;
   right: 403px;
-
-  bottom: 269px;
-
-  background: linear-gradient(271.59deg, #44a47d 9.96%, #ffffff 18.45%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  bottom: 300px;
 }
 
 .tanya-underline {
   position: relative;
-  margin-top: -340px;
-  margin-left: 620px;
+  bottom: 390px;
+  left: 130px;
   width: 253px;
   height: 1.5px;
-  background-color: #ffffff;
-  border: transparent;
 }
