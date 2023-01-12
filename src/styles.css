@@ -8,15 +8,13 @@ body {
   background-color: var(--main-white);
   font-family: "Rubik";
   margin-top: 40px;
-  color: var(--main-white);
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 a {
   text-decoration: none;
   color: var(--main-white);
 }
+
 a:hover {
   font-weight: bold;
 }
@@ -27,10 +25,8 @@ a:visited {
 }
 
 .ellipse {
-  display: block;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 31%;
+  margin-right: 10%;
   width: 475px;
   height: 475px;
   background: radial-gradient(
@@ -50,20 +46,20 @@ a:visited {
   font-size: 11px;
   line-height: 24px;
   letter-spacing: 0.05em;
-  left: 610px;
+  margin-left: 610px;
 }
 
 .portfolio-link-underline,
 .contacts-link-underline {
   width: 90px;
   height: 0.5px;
-  right: 19px;
+  margin-right: 590px;
 }
 
 .underline {
-  position: relative;
   background-color: var(--main-white);
   border: transparent;
+  position: relative;
 }
 
 .portfolio-link {
@@ -87,13 +83,13 @@ a:visited {
   font-size: 40px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  position: relative;
   padding: 5px;
   width: 320px;
   height: 178px;
-  left: 620px;
-  right: 403px;
-  bottom: 300px;
+  color: var(--main-white);
+  margin-top: -300px;
+  margin-left: 620px;
+  position: relative;
 }
 
 .green-uk {
@@ -104,9 +100,8 @@ a:visited {
 }
 
 .tanya-underline {
-  position: relative;
-  bottom: 390px;
-  left: 120px;
+  margin-top: -80px;
+  margin-left: 623px;
   width: 253px;
   height: 1.5px;
 }
