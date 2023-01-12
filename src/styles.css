@@ -1,19 +1,21 @@
 :root {
-  --first-color: #ffffff;
-  --second-color: #307466;
-  --third-color: #378867;
+  --main-white: #ffffff;
+  --dark-green: #307466;
+  --light-green: #378867;
 }
 
 body {
-  background-color: var(--first-color);
+  background-color: var(--main-white);
   font-family: "Rubik";
   margin-top: 40px;
-  color: var(--first-color);
+  color: var(--main-white);
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 a {
   text-decoration: none;
-  color: var(--first-color);
+  color: var(--main-white);
 }
 a:hover {
   font-weight: bold;
@@ -21,7 +23,7 @@ a:hover {
 
 a:visited {
   text-decoration: none;
-  color: var(--first-color);
+  color: var(--main-white);
 }
 
 .ellipse {
@@ -33,8 +35,8 @@ a:visited {
   height: 475px;
   background: radial-gradient(
     77.51% 77.51% at 89.3% 39.23%,
-    var(--second-color) 0%,
-    var(--third-color) 100%
+    var(--dark-green) 0%,
+    var(--light-green) 100%
   );
   filter: blur(50px);
   transform: rotate(-144.12deg);
@@ -53,13 +55,14 @@ a:visited {
 
 .portfolio-link-underline,
 .contacts-link-underline {
-  width: 67px;
+  width: 90px;
   height: 0.5px;
+  right: 19px;
 }
 
 .underline {
   position: relative;
-  background-color: var(--first-color);
+  background-color: var(--main-white);
   border: transparent;
 }
 
@@ -93,10 +96,17 @@ a:visited {
   bottom: 300px;
 }
 
+.green-uk {
+  background: linear-gradient(271.59deg, #44a47d 26.96%, #ffffff 90.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .tanya-underline {
   position: relative;
   bottom: 390px;
-  left: 130px;
+  left: 120px;
   width: 253px;
   height: 1.5px;
 }
