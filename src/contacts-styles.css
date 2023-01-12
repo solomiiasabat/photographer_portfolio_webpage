@@ -1,0 +1,19 @@
+:root {
+  --main-white: #ffffff;
+  --dark-green: #307466;
+  --light-green: #378867;
+  --nav-green: #5ba185;
+}
+
+.nav-ellipse {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 6px solid var(--nav-green);
+}
+
+.nav-ellipse:hover {
+  border: 6px solid var(--nav-green);
+  background-color: var(--nav-green);
+  cursor: pointer;
+}
