@@ -3,7 +3,7 @@
   --dark-green: #307466;
   --light-green: #378867;
   --nav-green: #5ba185;
-  --background-green: #bae7d4;
+  --text-color: #384741;
 }
 
 body {
@@ -14,6 +14,8 @@ body {
     rgba(255, 255, 255, 1) 48%,
     rgba(186, 231, 212, 1) 50%
   );
+  color: var(--text-color);
+  margin-top: 55px;
 }
 
 .nav-ellipse {
@@ -27,4 +29,24 @@ body {
   border: 6px solid var(--nav-green);
   background-color: var(--nav-green);
   cursor: pointer;
+}
+
+.side-text {
+  text-align: right;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.instagram {
+  font-size: 16px;
+}
+
+.mail {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.mail:hover {
+  text-decoration: underline;
 }
