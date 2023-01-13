@@ -8,7 +8,7 @@
 
 body {
   font-family: "Rubik";
-  background: rgb(255, 255, 255);
+  background: var(--main-white);
   background: linear-gradient(
     90deg,
     rgba(255, 255, 255, 1) 48%,

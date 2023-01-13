@@ -1,0 +1,42 @@
+:root {
+  --main-white: #ffffff;
+  --dark-green: #307466;
+  --light-green: #378867;
+  --nav-green: #5ba185;
+  --text-color: #384741;
+}
+
+body {
+  font-family: "Rubik";
+  background: var(--main-white);
+  color: var(--text-color);
+  margin-top: 35px;
+}
+
+.nav-ellipse {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 6px solid var(--nav-green);
+}
+
+.nav-ellipse:hover {
+  border: 6px solid var(--nav-green);
+  background-color: var(--nav-green);
+  cursor: pointer;
+}
+
+.nav-link {
+  color: var(--text-color);
+  margin-left: 48px;
+  margin-top: -33px;
+  font-size: 12px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.right-column-text {
+  margin-top: 7px;
+}
