@@ -16,6 +16,7 @@ body {
   );
   color: var(--text-color);
   margin-top: 55px;
+  overflow-y: hidden;
 }
 
 .nav-ellipse {
@@ -49,4 +50,20 @@ body {
 
 .mail:hover {
   text-decoration: underline;
+}
+
+.ellipse {
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 4%;
+  width: 750px;
+  height: 750px;
+  background: radial-gradient(
+    77.51% 77.51% at 89.3% 39.23%,
+    var(--dark-green) 0%,
+    var(--light-green) 100%
+  );
+  filter: blur(50px);
+  transform: rotate(-144.12deg);
+  border-radius: 100%;
 }
