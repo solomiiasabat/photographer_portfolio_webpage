@@ -32,11 +32,26 @@ body {
   cursor: pointer;
 }
 
+.nav-link {
+  color: var(--text-color);
+  margin-left: 48px;
+  margin-top: -33px;
+  font-size: 12px;
+}
+
+.active {
+  font-weight: bold;
+}
+
 .side-text {
   text-align: right;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.05em;
+}
+
+.right-column-text {
+  margin-top: 7px;
 }
 
 .instagram {
