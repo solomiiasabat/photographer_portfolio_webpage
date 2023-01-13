@@ -3,6 +3,17 @@
   --dark-green: #307466;
   --light-green: #378867;
   --nav-green: #5ba185;
+  --background-green: #bae7d4;
+}
+
+body {
+  font-family: "Rubik";
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 48%,
+    rgba(186, 231, 212, 1) 50%
+  );
 }
 
 .nav-ellipse {
