@@ -8,7 +8,7 @@
 
 body {
   font-family: "Rubik";
-  background: var(--main-white);
+  background-color: var(--main-white);
   color: var(--text-color);
   margin-top: 35px;
   overflow-x: hidden;
@@ -40,9 +40,25 @@ body {
 }
 
 .right-column-text {
-  margin-top: 7px;
   font-size: 10px;
   line-height: 24px;
   letter-spacing: 0.05em;
   background-color: var(--main-white);
+}
+
+.sticky-top {
+  background-color: var(--main-white);
+}
+
+img {
+  width: 120%;
+  height: 100%;
+}
+
+.left-photo {
+  margin-left: -80px;
+}
+
+.right-photo {
+  margin-left: 50px;
 }
