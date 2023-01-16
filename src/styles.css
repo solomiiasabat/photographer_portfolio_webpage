@@ -18,6 +18,7 @@ a {
 
 a:hover {
   font-weight: bold;
+  transition: all 200ms ease-in-out;
 }
 
 a:visited {

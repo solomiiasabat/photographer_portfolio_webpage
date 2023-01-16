@@ -24,6 +24,7 @@ body {
   border: 6px solid var(--nav-green);
   background-color: var(--nav-green);
   cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .nav-link {

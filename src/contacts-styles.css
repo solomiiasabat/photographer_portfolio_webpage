@@ -16,7 +16,7 @@ body {
   );
   color: var(--text-color);
   margin-top: 55px;
-  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .nav-ellipse {
@@ -30,6 +30,7 @@ body {
   border: 6px solid var(--nav-green);
   background-color: var(--nav-green);
   cursor: pointer;
+  transition: all 200ms ease-in-out;
 }
 
 .nav-link {
@@ -65,6 +66,7 @@ body {
 
 .mail:hover {
   text-decoration: underline;
+  transition: all 200ms ease-in-out;
 }
 
 .ellipse {
