@@ -16,7 +16,6 @@ body {
   );
   color: var(--text-color);
   margin-top: 55px;
-  overflow-x: hidden;
 }
 
 .nav-ellipse {
