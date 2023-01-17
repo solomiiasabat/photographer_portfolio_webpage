@@ -47,7 +47,7 @@ body {
   line-height: 24px;
   letter-spacing: 0.05em;
   background-color: var(--main-white);
-  padding-left: 70px;
+  padding-left: 60px;
 }
 
 .sticky-top {
@@ -56,6 +56,15 @@ body {
   padding-bottom: 15px;
   margin-left: -80px;
   margin-right: -80px;
+}
+
+.list-group-item-action {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.list-group-item-action:hover {
+  text-decoration: solid underline 2px var(--nav-green);
 }
 
 img {

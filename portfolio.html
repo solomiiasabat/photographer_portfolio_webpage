@@ -53,26 +53,55 @@
             </div>
           </nav>
         </div>
-        <div class="col-2 right-column-text">
-          personal<br />couple / family <br />
-          brands <br />wedding
+        <div class="col-2 right-column-text" id="list-example">
+          <a class="list-group-item-action" href="#personal">personal</a
+          ><br /><a class="list-group-item-action" href="#list-item-2"
+            >couple / family</a
+          >
+          <br />
+          <a class="list-group-item-action" href="#brands">brands</a>
+          <br /><a class="list-group-item-action" href="#wedding">wedding</a>
         </div>
       </div>
-      <div class="row">
-        <div class="col-6 left-photo"><img src="./photos/image_2.png" /></div>
-        <div class="col-6 right-photo"><img src="./photos/image_3.png" /></div>
-      </div>
-      <div class="row">
-        <div class="col-6 left-photo"><img src="./photos/image_3.png" /></div>
-        <div class="col-6 right-photo"><img src="./photos/image_2.png" /></div>
-      </div>
-      <div class="row">
-        <div class="col-6 left-photo"><img src="./photos/image_2.png" /></div>
-        <div class="col-6 right-photo"><img src="./photos/image_3.png" /></div>
-      </div>
-      <div class="row">
-        <div class="col-6 left-photo"><img src="./photos/image_3.png" /></div>
-        <div class="col-6 right-photo"><img src="./photos/image_2.png" /></div>
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#list-example"
+        data-bs-offset="0"
+        class="scrollspy-example"
+        tabindex="0"
+      >
+        <div class="row">
+          <div class="col-6 left-photo">
+            <img src="./photos/image_2.png" id="personal" />
+          </div>
+          <div class="col-6 right-photo">
+            <img src="./photos/image_3.png" id="personal" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 left-photo">
+            <img src="./photos/image_3.png" id="list-item-2" />
+          </div>
+          <div class="col-6 right-photo">
+            <img src="./photos/image_2.png" id="list-item-2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 left-photo">
+            <img src="./photos/image_2.png" id="brands" />
+          </div>
+          <div class="col-6 right-photo">
+            <img src="./photos/image_3.png" id="brands" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 left-photo">
+            <img src="./photos/image_3.png" id="wedding" />
+          </div>
+          <div class="col-6 right-photo">
+            <img src="./photos/image_2.png" id="wedding" />
+          </div>
+        </div>
       </div>
     </div>
   </body>
