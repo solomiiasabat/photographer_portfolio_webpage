@@ -28,10 +28,13 @@ body {
   transition: all 200ms ease-in-out;
 }
 
+.navbar {
+  flex-wrap: nowrap;
+}
+
 .nav-link {
   color: var(--text-color);
   margin-left: 48px;
-  margin-top: -33px;
   font-size: 12px;
 }
 
