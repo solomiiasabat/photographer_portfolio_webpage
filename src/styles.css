@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: var(--main-white);
+  background-color: black;
   font-family: "Rubik";
   margin-top: 40px;
   overflow-x: hidden;
@@ -27,6 +27,7 @@ a:visited {
 }
 
 .ellipse {
+  position: absolute;
   margin-left: 31%;
   margin-right: 10%;
   width: 475px;
@@ -39,11 +40,11 @@ a:visited {
   filter: blur(50px);
   transform: rotate(-144.12deg);
   border-radius: 100%;
+  z-index: -1;
 }
 
 .portfolio-link,
 .contacts-link {
-  position: relative;
   font-weight: lighter;
   font-size: 11px;
   line-height: 24px;
@@ -61,23 +62,22 @@ a:visited {
 .underline {
   background-color: var(--main-white);
   border: transparent;
-  position: relative;
 }
 
 .portfolio-link {
-  bottom: 295px;
+  margin-bottom: 30px;
 }
 
 .portfolio-link-underline {
-  bottom: 305px;
+  margin-bottom: 40px;
 }
 
 .contacts-link {
-  bottom: 305px;
+  margin-bottom: -120px;
 }
 
 .contacts-link-underline {
-  bottom: 315px;
+  margin-top: 120px;
 }
 
 .tanya-shevchuk {
@@ -89,9 +89,9 @@ a:visited {
   width: 320px;
   height: 178px;
   color: var(--main-white);
-  margin-top: -295px;
+  margin-top: 180px;
   margin-left: 620px;
-  position: relative;
+  z-index: 1;
 }
 
 .green-uk {
@@ -102,8 +102,8 @@ a:visited {
 }
 
 .tanya-underline {
-  margin-top: -75px;
-  margin-left: 623px;
+  margin-left: 627px;
+  margin-top: -70px;
   width: 253px;
   height: 1.5px;
 }
