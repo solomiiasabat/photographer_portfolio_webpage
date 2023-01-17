@@ -65,6 +65,7 @@ body {
 
 .list-group-item-action:hover {
   text-decoration: solid underline 2px var(--nav-green);
+  transition: all 200ms ease-in-out;
 }
 
 img {
