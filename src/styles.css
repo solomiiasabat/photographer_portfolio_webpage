@@ -43,6 +43,11 @@ a:visited {
   z-index: -1;
 }
 
+.page-links {
+  display: flex;
+  flex-direction: column;
+}
+
 .portfolio-link,
 .contacts-link {
   font-weight: lighter;
