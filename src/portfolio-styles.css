@@ -6,6 +6,10 @@
   --text-color: #384741;
 }
 
+html {
+  scroll-padding-top: 115px;
+}
+
 body {
   font-family: "Rubik";
   background-color: var(--main-white);
@@ -18,7 +22,7 @@ body {
   height: 35px;
   border-radius: 100%;
   border: 6px solid var(--nav-green);
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 .nav-ellipse:hover {
@@ -84,4 +88,9 @@ img {
 
 .right-photo {
   margin-left: 60px;
+}
+
+.anchor {
+  padding-top: 300px;
+  margin-top: -300px;
 }
