@@ -37,6 +37,10 @@ body {
   height: 35px;
   border-radius: 100%;
   border: 6px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background-color: var(--main-white);
+  transform: rotate(45deg);
 }
 
 .navbar {

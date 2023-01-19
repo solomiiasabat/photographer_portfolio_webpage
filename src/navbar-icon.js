@@ -1,9 +1,6 @@
-//document.querySelector(".nav-ellipse").style.borderBottomColor = "transparent";
-//document.querySelector(".nav-ellipse").style.borderLeftColor = "transparent";
-//border-bottom-color: transparent;
-//border-left-color: transparent;
-//rotate: (-45deg);
+const element = document.getElementsByClassName(".nav-ellipse");
+let open = element.getAttribute("aria-expanded");
 
-//const element = document.getElementsByClassName(".nav-ellipse");
-//let text = element.getAttribute("type");
-//console.log(text);
+if (open === true) {
+  document.querySelector(".nav-ellipse").className = "semi-nav-ellipse";
+}
