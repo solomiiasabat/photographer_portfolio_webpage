@@ -43,19 +43,22 @@ body {
 }
 
 .right-column-text {
-  font-size: 10px;
-  line-height: 24px;
+  font-size: 11px;
+  line-height: 27px;
   letter-spacing: 0.05em;
   background-color: var(--main-white);
   padding-left: 60px;
+  padding-bottom: 20px;
+  z-index: 1;
 }
 
 .sticky-top {
   background-color: var(--main-white);
   padding-top: 25px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
   margin-left: -80px;
   margin-right: -80px;
+  max-height: 120px;
 }
 
 .list-group-item-action {
@@ -71,6 +74,7 @@ body {
 img {
   width: 120%;
   height: 100%;
+  z-index: -1;
 }
 
 .left-photo {
