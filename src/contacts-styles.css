@@ -19,8 +19,8 @@ body {
 }
 
 .nav-ellipse {
-  width: 35px;
-  height: 35px;
+  width: 36px;
+  height: 36px;
   border: 6px solid var(--nav-green);
   border-radius: 100%;
 }
@@ -31,38 +31,23 @@ body {
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
-/*
-.semi-nav-ellipse {
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-  border: 6px solid black;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  background-color: var(--main-white);
-  transform: rotate(45deg);
-}
-*/
+
 button[aria-expanded="true"] {
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-  border: 6px solid black;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  background-color: var(--main-white);
-  transform: rotate(45deg);
+  width: 36px;
+  height: 18px;
+  border: 6px solid var(--nav-green);
+  border-radius: 12rem 12rem 0 0;
+  background-color: var(--nav-green);
+  transform: rotate(-90deg);
 }
 
 button[aria-expanded="true"]:hover {
-  width: 35px;
-  height: 35px;
-  border-radius: 100%;
-  border: 6px solid black;
-  border-top-color: transparent;
-  border-right-color: transparent;
-  background-color: var(--main-white);
-  transform: rotate(45deg);
+  width: 36px;
+  height: 18px;
+  border: 6px solid var(--nav-green);
+  border-radius: 12rem 12rem 0 0;
+  background-color: var(--nav-green);
+  transform: rotate(-90deg);
 }
 
 .navbar {
