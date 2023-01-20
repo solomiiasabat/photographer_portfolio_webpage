@@ -31,8 +31,30 @@ body {
   cursor: pointer;
   transition: all 200ms ease-in-out;
 }
-
+/*
 .semi-nav-ellipse {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 6px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background-color: var(--main-white);
+  transform: rotate(45deg);
+}
+*/
+button[aria-expanded="true"] {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  border: 6px solid black;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background-color: var(--main-white);
+  transform: rotate(45deg);
+}
+
+button[aria-expanded="true"]:hover {
   width: 35px;
   height: 35px;
   border-radius: 100%;
