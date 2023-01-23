@@ -95,3 +95,25 @@ a:visited {
   background-color: var(--main-white);
   border: transparent;
 }
+
+/* !!! responsive !!! */
+
+@media (max-width: 1978px) {
+  .ellipse {
+    margin-left: 38%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 920px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 960px;
+  }
+
+  .tanya-underline {
+    margin-left: 966px;
+    width: 265px;
+  }
+}
