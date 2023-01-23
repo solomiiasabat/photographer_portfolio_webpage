@@ -100,15 +100,15 @@ a:visited {
 @media (max-width: 1194px) {
   .portfolio-link,
   .contacts-link {
-    margin-left: 550px;
+    margin-left: 540px;
   }
 
   .tanya-shevchuk {
-    margin-left: 555;
+    margin-left: 49.5%;
   }
 
   .tanya-underline {
-    margin-left: 593;
+    margin-left: 50%;
     width: 265px;
   }
 }
