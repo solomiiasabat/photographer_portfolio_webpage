@@ -193,6 +193,26 @@ a:visited {
   }
 }
 
+@media (max-width: 911px) {
+  .ellipse {
+    margin-left: 26%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 425px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 52%;
+  }
+
+  .tanya-underline {
+    margin-left: 51%;
+    width: 265px;
+  }
+}
+
 @media (max-width: 905px) {
   .ellipse {
     margin-left: 26%;
