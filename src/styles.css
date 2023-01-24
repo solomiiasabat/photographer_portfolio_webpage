@@ -145,7 +145,7 @@ a:visited {
   }
 }
 
-@media (max-width: 1094px) {
+@media (max-width: 1096px) {
   .portfolio-link,
   .contacts-link {
     margin-left: 500px;
@@ -304,7 +304,7 @@ a:visited {
   }
 
   .tanya-underline {
-    margin-left: 51%;
+    margin-left: 52.7%;
     width: 265px;
   }
 }
@@ -429,6 +429,26 @@ a:visited {
   }
 }
 
+@media (max-width: 740px) {
+  .ellipse {
+    margin-left: 22%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 330px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 50%;
+  }
+
+  .tanya-underline {
+    margin-left: 51%;
+    width: 265px;
+  }
+}
+
 @media (max-width: 730px) {
   .ellipse {
     margin-left: 22%;
@@ -489,7 +509,7 @@ a:visited {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 655px) {
   .ellipse {
     margin-left: 16%;
   }
@@ -549,7 +569,7 @@ a:visited {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 580px) {
   .ellipse {
     margin-left: 20%;
   }
