@@ -104,3 +104,8 @@ button[aria-expanded="true"]:hover {
   transform: rotate(-144.12deg);
   border-radius: 100%;
 }
+
+/* !RESPONSIVE! */
+
+@media (max-width: 946px) {
+}
