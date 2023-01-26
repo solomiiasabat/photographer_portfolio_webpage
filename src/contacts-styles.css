@@ -107,5 +107,8 @@ button[aria-expanded="true"]:hover {
 
 /* !RESPONSIVE! */
 
-@media (max-width: 946px) {
+@media (max-width: 1196px) {
+  .ellipse {
+    margin-left: 10%;
+  }
 }
