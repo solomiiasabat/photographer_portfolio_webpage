@@ -98,8 +98,6 @@ a:visited {
 
 /* !!! ADAPTIVE !!! */
 
-/*
-
 @media (max-width: 1194px) {
   body {
     margin-top: 60px;
@@ -207,7 +205,7 @@ a:visited {
 
   .portfolio-link,
   .contacts-link {
-    margin-left: 450px;
+    margin-left: 450px; 
     font-size: 15px;
   }
 
@@ -226,6 +224,7 @@ a:visited {
     margin-top: -60px;
   }
 }
+/*
 
 @media (max-width: 905px) {
   body {
