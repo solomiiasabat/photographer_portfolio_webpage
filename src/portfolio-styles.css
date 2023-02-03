@@ -23,6 +23,7 @@ body {
   border-radius: 100%;
   border: 6px solid var(--nav-green);
   margin-left: 60px;
+  margin-top: -20px;
 }
 
 .nav-ellipse:hover {
@@ -39,6 +40,7 @@ button[aria-expanded="true"] {
   border-radius: 12rem 12rem 0 0;
   background-color: var(--nav-green);
   transform: rotate(-90deg);
+  margin-top: -20px;
 }
 
 button[aria-expanded="true"]:hover {
@@ -58,6 +60,7 @@ button[aria-expanded="true"]:hover {
   color: var(--text-color);
   margin-left: 48px;
   font-size: 12px;
+  margin-top: -12px;
 }
 
 .active {
@@ -65,21 +68,22 @@ button[aria-expanded="true"]:hover {
 }
 
 .right-column-text {
-  font-size: 11px;
-  line-height: 27px;
+  font-size: 12px;
+  line-height: 30px;
   letter-spacing: 0.05em;
   background-color: var(--main-white);
   padding-left: 60px;
   padding-bottom: 20px;
+  margin-top: -20px;
   z-index: 1;
 }
 
 .sticky-top {
   background-color: var(--main-white);
-  padding-top: 25px;
+  padding-top: 55px;
   padding-bottom: 25px;
-  margin-left: -80px;
-  margin-right: -80px;
+  margin-left: -90px;
+  margin-right: -90px;
   max-height: 120px;
 }
 
@@ -100,15 +104,10 @@ img {
 }
 
 .left-photo {
-  margin-left: -80px;
+  margin-left: -85px;
   margin-right: 20px;
 }
 
 .right-photo {
   margin-left: 60px;
-}
-
-.anchor {
-  padding-top: 300px;
-  margin-top: -300px;
 }
