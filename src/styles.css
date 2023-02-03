@@ -358,13 +358,13 @@ a:visited {
   .ellipse {
     width: 700px;
     height: 700px;
-    margin-left: 23%;
+    margin-left: 28%;
     margin-top: 52%;
   }
 
   .portfolio-link,
   .contacts-link {
-    margin-left: 280px;
+    margin-left: 300px;
     font-size: 24px;
     line-height: 42px;
     width: 135px;
@@ -375,14 +375,80 @@ a:visited {
   }
 
   .tanya-shevchuk {
-    margin-left: 85%;
+    margin-left: 90%;
     font-size: 70px;
     padding-top: 10px;
   }
 
   .tanya-underline {
-    margin-left: 85.8%;
+    margin-left: 90.8%;
     width: 490px;
     margin-top: -13px;
+  }
+}
+
+@media (max-width: 380px) {
+  .ellipse {
+    width: 750px;
+    height: 750px;
+    margin-left: 40%;
+    margin-top: 100%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 320px;
+    font-size: 28px;
+    line-height: 45px;
+    width: 170px;
+  }
+
+  .portfolio-link {
+    margin-top: 610px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 113%;
+    font-size: 82px;
+    padding-top: 10px;
+  }
+
+  .tanya-underline {
+    margin-left: 113.8%;
+    width: 550px;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 325px) {
+  .ellipse {
+    width: 850px;
+    height: 850px;
+    margin-left: 45%;
+    margin-top: 200%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 328px;
+    font-size: 32px;
+    line-height: 48px;
+    width: 180px;
+  }
+
+  .portfolio-link {
+    margin-top: 910px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 140%;
+    font-size: 87px;
+    padding-top: 15px;
+  }
+
+  .tanya-underline {
+    margin-left: 140.8%;
+    width: 550px;
+    margin-top: 35px;
   }
 }
