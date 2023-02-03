@@ -96,8 +96,13 @@ a:visited {
   border: transparent;
 }
 
-/* !!! responsive !!! */
+/* !!! ADAPTIVE !!! */
+
 @media (max-width: 1194px) {
+  body {
+    margin-top: 60px;
+  }
+
   .portfolio-link,
   .contacts-link {
     margin-left: 540px;
@@ -113,23 +118,11 @@ a:visited {
   }
 }
 
-@media (max-width: 1150px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 530px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 50%;
-  }
-
-  .tanya-underline {
-    margin-left: 50%;
-    width: 265px;
-  }
-}
-
 @media (max-width: 1140px) {
+  body {
+    margin-top: 60px;
+  }
+
   .portfolio-link,
   .contacts-link {
     margin-left: 520px;
@@ -145,332 +138,189 @@ a:visited {
   }
 }
 
-@media (max-width: 1096px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 500px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 50%;
-  }
-
-  .tanya-underline {
-    margin-left: 50.5%;
-    width: 265px;
-  }
-}
-
 @media (max-width: 1070px) {
+  .ellipse {
+    width: 520px;
+    height: 520px;
+    margin-left: 28%;
+  }
+
   .portfolio-link,
   .contacts-link {
     margin-left: 495px;
+    font-size: 15px;
+  }
+
+  .portfolio-link {
+    margin-top: 200px;
   }
 
   .tanya-shevchuk {
     margin-left: 50%;
+
+    font-size: 45px;
   }
 
   .tanya-underline {
     margin-left: 50.5%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 1054px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 500px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 52.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 53%;
     width: 265px;
   }
 }
 
 @media (max-width: 1015px) {
+  .ellipse {
+    width: 530px;
+    height: 530px;
+    margin-left: 28%;
+  }
+
   .portfolio-link,
   .contacts-link {
-    margin-left: 492px;
+    margin-left: 470px;
+    font-size: 15px;
+  }
+
+  .portfolio-link {
+    margin-top: 200px;
   }
 
   .tanya-shevchuk {
-    margin-left: 52.5%;
+    margin-left: 50%;
+    font-size: 49px;
   }
 
   .tanya-underline {
-    margin-left: 53%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 1010px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 480px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 52.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 53%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 480px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 52.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 53%;
-    width: 265px;
+    margin-left: 50.5%;
+    width: 310px;
+    margin-top: -60px;
   }
 }
 
 @media (max-width: 975px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 468px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 52.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 53%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 960px) {
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 460px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 52.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 53%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 946px) {
   .ellipse {
-    margin-left: 26%;
-  }
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 425px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 51.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 52%;
-    width: 264px;
-  }
-}
-
-@media (max-width: 911px) {
-  .ellipse {
-    margin-left: 26%;
+    width: 530px;
+    height: 530px;
+    margin-left: 24%;
   }
 
   .portfolio-link,
   .contacts-link {
-    margin-left: 425px;
+    margin-left: 450px;
+    font-size: 15px;
+  }
+
+  .portfolio-link {
+    margin-top: 200px;
   }
 
   .tanya-shevchuk {
-    margin-left: 52%;
+    margin-left: 50%;
+    font-size: 49px;
   }
 
   .tanya-underline {
-    margin-left: 52.7%;
-    width: 265px;
+    margin-left: 50.5%;
+    width: 320px;
+    margin-top: -60px;
   }
 }
 
 @media (max-width: 905px) {
+  body {
+    margin-top: 45%;
+  }
+
   .ellipse {
-    margin-left: 26%;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 60%;
   }
 
   .portfolio-link,
   .contacts-link {
-    margin-left: 400px;
+    margin-left: 480px;
+    font-size: 85px;
+    line-height: 130px;
+    width: 380px;
+  }
+
+  .portfolio-link {
+    margin-top: 860px;
   }
 
   .tanya-shevchuk {
-    margin-left: 50%;
+    padding-top: 30px;
+    margin-left: 150.5%;
+    font-size: 250px;
   }
 
   .tanya-underline {
-    margin-left: 51%;
-    width: 265px;
+    margin-left: 69%;
+    width: 600px;
+    margin-top: 20px;
   }
 }
-
-@media (max-width: 860px) {
-  .ellipse {
-    margin-left: 26%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 390px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 51.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 52.3%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 830px) {
-  .ellipse {
-    margin-left: 26%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 380px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 51.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 52.3%;
-    width: 265px;
-  }
-}
-
+/*
 @media (max-width: 805px) {
   .ellipse {
-    margin-left: 26%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 370px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 51.5%;
-  }
-
-  .tanya-underline {
-    margin-left: 52.3%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 795px) {
-  .ellipse {
-    margin-left: 22%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 350px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 50%;
-  }
-
-  .tanya-underline {
-    margin-left: 51%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 770px) {
-  .ellipse {
-    margin-left: 22%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 340px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 50%;
-  }
-
-  .tanya-underline {
-    margin-left: 51%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 740px) {
-  .ellipse {
-    margin-left: 22%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 330px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 50%;
-  }
-
-  .tanya-underline {
-    margin-left: 51%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 730px) {
-  .ellipse {
-    margin-left: 22%;
+    width: 530px;
+    height: 530px;
+    margin-left: 16%;
   }
 
   .portfolio-link,
   .contacts-link {
     margin-left: 320px;
+    font-size: 15px;
+  }
+
+  .portfolio-link {
+    margin-top: 200px;
   }
 
   .tanya-shevchuk {
-    margin-left: 50%;
+    margin-left: 45%;
+    font-size: 49px;
   }
 
   .tanya-underline {
-    margin-left: 51%;
-    width: 265px;
+    margin-left: 46%;
+    width: 325px;
+    margin-top: -60px;
   }
 }
+
+@media (max-width: 730px) {
+ .ellipse {
+    width: 580px;
+    height: 580px;
+    margin-left: 18%;
+  }
+
+  .portfolio-link,
+  .contacts-link {
+    margin-left: 320px;
+    font-size: 15px;
+  }
+
+  .portfolio-link {
+    margin-top: 200px;
+  }
+
+  .tanya-shevchuk {
+    margin-left: 47%;
+    font-size: 49px;
+  }
+
+  .tanya-underline {
+    margin-left: 46%;
+    width: 325px;
+    margin-top: -60px;
+  }
+}
+
+/*
+
 
 @media (max-width: 705px) {
   .ellipse {
@@ -828,326 +678,6 @@ a:visited {
 
   .tanya-underline {
     margin-left: 90.2%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 335px) {
-  .ellipse {
-    margin-left: 29%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 260px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 93%;
-  }
-
-  .tanya-underline {
-    margin-left: 94.2%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 325px) {
-  .ellipse {
-    margin-left: 29%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 253px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 94%;
-  }
-
-  .tanya-underline {
-    margin-left: 95.2%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 315px) {
-  .ellipse {
-    margin-left: 29%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 247px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 95%;
-  }
-
-  .tanya-underline {
-    margin-left: 96.5%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 300px) {
-  .ellipse {
-    margin-left: 33%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 260px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 105%;
-  }
-
-  .tanya-underline {
-    margin-left: 106.5%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 285px) {
-  .ellipse {
-    margin-left: 40%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 280px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 120%;
-  }
-
-  .tanya-underline {
-    margin-left: 121.5%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 275px) {
-  .ellipse {
-    margin-left: 40%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 280px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 125%;
-  }
-
-  .tanya-underline {
-    margin-left: 127%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 260px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 285px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 132%;
-  }
-
-  .tanya-underline {
-    margin-left: 134%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 247px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 280px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 132%;
-  }
-
-  .tanya-underline {
-    margin-left: 134%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 236px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 270px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 135%;
-  }
-
-  .tanya-underline {
-    margin-left: 137%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 230px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 265px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 142%;
-  }
-
-  .tanya-underline {
-    margin-left: 144%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 216px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 260px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 147%;
-  }
-
-  .tanya-underline {
-    margin-left: 149%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 206px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 260px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 157%;
-  }
-
-  .tanya-underline {
-    margin-left: 159%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 196px) {
-  .ellipse {
-    margin-left: 45%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 248px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 157%;
-  }
-
-  .tanya-underline {
-    margin-left: 159%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 185px) {
-  .ellipse {
-    margin-left: 50%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 248px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 173%;
-  }
-
-  .tanya-underline {
-    margin-left: 175%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 170px) {
-  .ellipse {
-    margin-left: 60%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 265px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 200%;
-  }
-
-  .tanya-underline {
-    margin-left: 202%;
-    width: 265px;
-  }
-}
-
-@media (max-width: 156px) {
-  .ellipse {
-    margin-left: 50%;
-  }
-
-  .portfolio-link,
-  .contacts-link {
-    margin-left: 245px;
-  }
-
-  .tanya-shevchuk {
-    margin-left: 200%;
-  }
-
-  .tanya-underline {
-    margin-left: 202%;
     width: 265px;
   }
 }
