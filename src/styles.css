@@ -230,19 +230,19 @@ a:visited {
     width: 580px;
     height: 580px;
     margin-left: 19%;
-    margin-top: 15%;
+    margin-top: 10%;
   }
 
   .portfolio-link,
   .contacts-link {
-    margin-left: 350px;
+    margin-left: 335px;
     font-size: 20px;
     line-height: 35px;
     width: 115px;
   }
 
   .portfolio-link {
-    margin-top: 300px;
+    margin-top: 290px;
   }
 
   .tanya-shevchuk {
@@ -251,8 +251,8 @@ a:visited {
   }
 
   .tanya-underline {
-    margin-left: 51%;
+    margin-left: 50.8%;
     width: 380px;
-    margin-top: -40px;
+    margin-top: -37px;
   }
 }
