@@ -110,7 +110,7 @@ button[aria-expanded="true"]:hover {
 
 /* !RESPONSIVE! */
 
-
+/*
 
 @media (max-width: 1196px) {
   .ellipse {
@@ -186,33 +186,3 @@ button[aria-expanded="true"]:hover {
 
 
 
-/*
-@media (max-width: 670px) {
-  .ellipse {
-    margin-left: 50px;
-  }
-
-  .side-text {
-    margin-right: -345px;
-  }
-
- 
-}
-
-
-/*
-@media (max-width: 1035px) {
-  .ellipse {
-    margin-left: 10%;
-  }
-}
-
-@media (max-width: 965px) {
-  .ellipse {
-    margin-left: 10%;
-  }
-
-  .side-text {
-    margin-left: 150px;
-  }
-}
