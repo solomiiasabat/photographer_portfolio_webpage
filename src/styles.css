@@ -326,13 +326,14 @@ a:visited {
 */
 @media (max-width: 500px) {
   body {
-    overflow-x: hidden;
+    overflow: hidden;
   }
+  
   .ellipse {
     width: 290px;
     height: 290px;
     margin-left: 16%;
-    margin-top: 45%;
+    margin-top: 50%;
   }
 
   .portfolio-link,
