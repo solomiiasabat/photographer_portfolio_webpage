@@ -115,7 +115,7 @@ button[aria-expanded="true"]:hover {
 
 /* !RESPONSIVE! */
 
-@media (max-width: 340px) {
+@media (max-width: 440px) {
   .nav-link {
     margin-left: 0px;
     font-size: 10px;
