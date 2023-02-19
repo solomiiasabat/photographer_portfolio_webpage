@@ -117,29 +117,6 @@ img {
 }
 
 /* !!! ADAPTIVE !!! */
-/*
-@media (max-width: 1450px) {
-  .nav-ellipse {
-    margin-left: 110px;
-  }
-
-  .nav-link {
-    font-size: 16px;
-  }
-
-  .right-column-text {
-    font-size: 16px;
-    line-height: 38px;
-    padding-left: 60px;
-    padding-right: 0px;
-  }
-
-  .sticky-top {
-    margin-left: -125px;
-    margin-right: -125px;
-  }
-}
-*/
 @media (max-width: 1030px) {
   .nav-ellipse {
     margin-left: 100px;
