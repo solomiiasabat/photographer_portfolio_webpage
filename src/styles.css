@@ -326,9 +326,9 @@ a:visited {
 */
 @media (max-width: 500px) {
   body {
-    overflow: hidden;
+    overflow: scroll;
   }
-  
+
   .ellipse {
     width: 290px;
     height: 290px;
