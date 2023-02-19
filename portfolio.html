@@ -25,7 +25,7 @@
   <body>
     <div class="container">
       <div class="row sticky-top">
-        <div class="col-10">
+        <div class="col-9 col-xl-10 col-lg-10 col-md-10">
           <nav class="navbar">
             <button
               class="nav-ellipse"
@@ -36,6 +36,7 @@
               aria-expanded="false"
             ></button>
 
+            <!--Navbar pages list-->
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="nav navbar-right">
                 <li class="nav-item">
@@ -53,16 +54,20 @@
             </div>
           </nav>
         </div>
-        <div class="col-2 right-column-text" id="list-example">
+
+        <!--Scrollspy and section-box-->
+        <div
+          class="col-3 col-xl-2 col-lg-2 col-md-2 right-column-text"
+          id="list-example"
+        >
           <a class="list-group-item-action" href="#personal">personal</a
-          ><br /><a class="list-group-item-action" href="#couple"
-            >couple / family</a
-          >
+          ><br /><a class="list-group-item-action" href="#couple">couple</a>
           <br />
-          <a class="list-group-item-action" href="#brands">brands</a>
-          <br /><a class="list-group-item-action" href="#wedding">wedding</a>
+          <a class="list-group-item-action" href="#events">events</a>
+          <br />
         </div>
       </div>
+
       <div
         data-bs-spy="scroll"
         data-bs-target="#list-example"
@@ -70,36 +75,84 @@
         class="scrollspy-example"
         tabindex="0"
       >
-        <div class="row">
-          <div class="col-6 left-photo">
-            <img src="./photos/image_2.png" id="personal" />
+        <!--Photos from PERSONAL section-->
+        <div class="row" id="personal">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./personal/ph1.jpg" id="personal" />
           </div>
-          <div class="col-6 right-photo">
-            <img src="./photos/image_3.png" id="personal" />
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./personal/ph2.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./personal/ph3.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./personal/ph4.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./personal/ph5.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./personal/ph6.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./personal/ph7.jpg" id="personal" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./personal/ph8.jpg" id="personal" />
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 left-photo">
-            <img src="./photos/image_3.png" id="couple" />
+
+        <!--Photos from COUPLE section-->
+        <div class="row" id="couple">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./couple/ph1.jpg" id="couple" />
           </div>
-          <div class="col-6 right-photo">
-            <img src="./photos/image_2.png" id="couple" />
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./couple/ph2.jpg" id="couple" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./couple/ph3.jpg" id="couple" class="smaller" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./couple/ph4.jpg" id="couple" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./couple/ph5.jpg" id="couple" class="smaller" />
+          </div>
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./couple/ph6.jpg" id="couple" />
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 left-photo">
-            <img src="./photos/image_2.png" id="brands" />
+
+        <!--Photos from EVENTS section-->
+        <div class="row" id="events">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./events/ph1.jpg" id="events" />
           </div>
-          <div class="col-6 right-photo">
-            <img src="./photos/image_3.png" id="brands" />
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./events/ph2.jpg" id="events" />
           </div>
-        </div>
-        <div class="row">
-          <div class="col-6 left-photo">
-            <img src="./photos/image_3.png" id="wedding" />
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 left-photo">
+            <img src="./events/ph3.jpg" id="events" class="smaller" />
           </div>
-          <div class="col-6 right-photo">
-            <img src="./photos/image_2.png" id="wedding" />
+
+          <div class="col-xl-6 col-lg-6 col-md-6 col-12 right-photo">
+            <img src="./events/ph4.jpg" id="events" />
           </div>
         </div>
       </div>
