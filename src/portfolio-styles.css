@@ -224,7 +224,7 @@ img {
 
 @media (max-width: 400px) {
   img {
-    max-width: 136%;
+    max-width: 108%;
     display: flex;
     justify-content: space-evenly;
     margin-left: 9%;
@@ -232,47 +232,50 @@ img {
   }
 
   .nav-ellipse {
-    margin-left: 115px;
+    margin-left: 14px;
+    margin-top: -15px;
   }
 
   .nav-link {
-    margin-left: 28px;
-    margin-top: -12px;
-    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 11px;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .right-column-text {
-    font-size: 14px;
-    line-height: 34px;
-    padding-left: 46px;
-    padding-right: 40px;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sticky-top {
-    margin-left: -100px;
-    margin-right: -110px;
+    margin-left: -13px;
+    margin-right: -10px;
+    max-width: 108%;
   }
 
   .left-photo {
-    margin-left: -48px;
+    margin-left: -50px;
     margin-right: 0px;
   }
 
   .right-photo {
-    margin-left: -48px;
+    margin-left: -50px;
     margin-right: 0px;
   }
 
   .smaller {
-    width: 140%;
+    width: 135%;
   }
 }
 
 @media (max-width: 340px) {
   img {
-    max-width: 141%;
+    max-width: 112%;
     display: flex;
     justify-content: space-evenly;
     margin-left: 9%;
@@ -280,40 +283,43 @@ img {
   }
 
   .nav-ellipse {
-    margin-left: 110px;
+    margin-left: 14px;
+    margin-top: -15px;
   }
 
   .nav-link {
-    margin-left: 28px;
-    margin-top: -12px;
-    font-size: 12px;
+    margin-left: 15px;
+    margin-top: -10px;
+    font-size: 10px;
     padding-left: 0px;
     padding-right: 0px;
   }
 
   .right-column-text {
-    font-size: 14px;
-    line-height: 34px;
-    padding-left: 35px;
-    padding-right: 40px;
+    font-size: 11px;
+    line-height: 25px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sticky-top {
-    margin-left: -100px;
-    margin-right: -110px;
+    margin-left: -14px;
+    margin-right: -14px;
+    max-width: 109%;
   }
 
   .left-photo {
-    margin-left: -40px;
+    margin-left: -50px;
     margin-right: 0px;
   }
 
   .right-photo {
-    margin-left: -40px;
+    margin-left: -50px;
     margin-right: 0px;
   }
 
   .smaller {
-    width: 145%;
+    width: 135%;
   }
 }
