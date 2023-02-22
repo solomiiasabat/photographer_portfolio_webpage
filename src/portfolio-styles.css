@@ -173,15 +173,19 @@ img {
 
 @media (max-width: 500px) {
   img {
-    max-width: 130%;
+    max-width: 106%;
     display: flex;
     justify-content: space-evenly;
     margin-left: 9%;
     padding-top: 0px;
   }
-
+  /*
+  #personal {
+    margin-right: -50px;
+  }
+*/
   .nav-ellipse {
-    margin-left: 120px;
+    margin-left: 10px;
   }
 
   .nav-link {
@@ -193,15 +197,17 @@ img {
   }
 
   .right-column-text {
-    font-size: 15px;
-    line-height: 34px;
-    padding-left: 46px;
-    padding-right: 40px;
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .sticky-top {
-    margin-left: -100px;
-    margin-right: -110px;
+    margin-left: -13px;
+    margin-right: -10px;
+    max-width: 108%;
   }
 
   .left-photo {
